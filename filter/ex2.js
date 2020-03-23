@@ -26,6 +26,7 @@ Expected OUTPUT for this sample:
 */
 
 function keepStarks(names) {
+  return names.filter(e=> e.search('Stark')>0)
 }
 
 // DON'T TOUCH THIS!
